@@ -1,0 +1,88 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","No I don't want","I don't want to take admission"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you throug"],
+         "context": [""]
+        },
+        {"tag": "admission",
+         "patterns": ["yes I want","i want take admission in MANUU"],
+         "responses": ["you want admission in UG or PG"],
+         "context": [""]
+        },
+        {"tag": "UG",
+         "patterns": ["UG course","I want to take admission in  UG","UG"],
+         "responses": ["B.Tech / BA / BSc / BEd"],
+         "context": [""]
+        },
+        {"tag": "B.Tech",
+         "patterns": ["B.tech CS","BTech","btech","b.tech","admission in B.tech"],
+         "responses": ["B.Tech (CS) Regular / B.Tech(CS) Letral Entry"],
+         "context": [""]
+        },
+        {"tag": "B.Tech (CS) Regular",
+         "patterns": ["B.Tech Regular","regular","CS regular","BTech cs regular","btech regular"],
+         "responses": ["Regular Intake / Regular ELigibility / B.Tech (CS) Syllabus / Admission Process"],
+         "context": [""]
+        },
+        {"tag": "B.Tech (CS) Regular Intake",
+         "patterns": ["B.Tech Regular intake","regular intake","Btech cs regular seat","BTech cs regular intake","btech regular intake","total regular seat"],
+         "responses": ["Regular Intake = 60 "],
+         "context": [""]
+        },
+        {"tag": "B.Tech (CS) Letral Entry Intake",
+         "patterns": ["B.Tech Letral Entry intake","Letral Entry intake","Btech cs Letral Entry seat","BTech cs Letral Entry intake","btech Letral Entry intake","total Letral Entry seat"],
+         "responses": ["Letral Entry Intake = 8 "],
+         "context": [""]
+        },
+        {"tag": "Total seat In BTech CS",
+         "patterns": ["how many seat in BTech","total intake in Btech","Total seat in Btech","Toatl seat in Btech","in Btech how many Seat","how many intake in Btech"],
+         "responses": ["Regular Intake : 60 + Letral Entry Intake : 8 = 68"],
+         "context": [""]
+        },
+        {"tag": "B.Tech (CS) Regular Eligibility Criteria",
+         "patterns": ["B.Tech Regular Eligibility Criteria","regular Eligibility Criteria","CS regular eligibility Criteria","BTech cs regular eligibility Criteria","btech regular eligibility Criteria","B.tech regular eligibility Criteria"],
+         "responses": ["Regular Eligibility Criteria : i. Urdu as a subject/language or as a Medium in 10th/12th level or equivalent Madrasa courses with Urdu as medium of Instruction approvedby MANUU.  ii.Passed 10+2 examination with Physics, Mathematics and for remainingsingle course select any course out of the following:Chemistry/ Computer Science/Electronics/Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/Entrepreneurship and Obtained at least 45% marks (40%marks incase of candidates belonging to reserved category) in the above subjects taken together. OR Passed min. 3 years Diploma examination with at least 45%marks (40%marks in case of candidates belonging to reserved category) subject tovacancies in the First Year, in case the vacancies at lateral entry areexhausted.","B.Tech Syllabus : https://manuu.edu.in/sites/default/files/CSIT/btech-locf-syllabus.pdf"],
+         "context": [""]
+        },
+        {"tag": "B.Tech (CS)  Syllabus",
+         "patterns": ["B.Tech  Syllabus","B.Tech CS Syllabus","B.Tech cs  Syllabus","btech  Syllabus","B.tech  Syllabus"],
+         "responses": ["B.Tech (CS) Syllabus : <a href='https://manuu.edu.in/sites/default/files/CSIT/btech-locf-syllabus.pdf'> B.Tech Syllabus</a> "],
+         "context": [""]
+        },
+        {"tag": "B.Tech (CS)  Admission Process",
+         "patterns": ["B.Tech  Admission Process","B.Tech CS Admission Process","BTech cs  Admission Process","btech  Admission Process","B.tech  Admission Process"],
+         "responses": ["B.Tech (CS) Admission Process : Entrance Based(ET)  /  Last date for Submission of filled-in Application Forms,28th May, 2023  /  Form open for Editing for ET based programme,7th and 8th June, 2023  /  Issue of Admit Card for ET based programme,12th June, 2023  /  Dates of ET Exams,20th, 21st and 22nd June, 2023  /  Application cum Registration Fee ET Based  /  Exam Center"],
+         "context": [""]
+        },
+        {"tag": "Application cum Registration Fee ET Based",
+         "patterns": ["Registration Fee ET Based","Application form Fee ET Based","Application form Fee ","Registration Fee","Application form Registration Fee"],
+         "responses": ["Fee Payment through Online Mode only  /  General Category Candidates:Rs. 550.00  /  SC/ST/PWD/OBC(Non-creamy Layer)/Women Candidates:Rs. 350.00   /  Foreign students:Rs. 2500.00"],
+         "context": [""]
+        },
+        {"tag": "Exam Center",
+         "patterns": ["exam center","EXAM CENTER","center for entrance exam"],
+         "responses": ["Asansol (WB), Aurangabad(MS),Bengaluru(KS), Bhopal (MP), Bidar (KS) Cuttack(Odisha),Darbhanga(Bihar),Delhi (NCR), Gaya (Bihar)Hyderabad(TS), Jammu(J&K)Kadapa (AP), Kishanganj (Bihar),Kargil (J&K), Lucknow(UP), Nuh (Haryana)Patna (Bihar), Ranchi(Jharkand)Sambal (UP), Siwan(Bihar), Srinagar (J&K),Varanasi (UP),"],
+         "context": [""]
+        }
+   ]
+}
